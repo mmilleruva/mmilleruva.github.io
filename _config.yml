@@ -1,10 +1,10 @@
 # Site settings
-title: MMillerUVA
+title: Seeing The Light
 email: mmilleruva@gmail.com
-description: "Mike Miller's blog about development"
+description: "A blog about getting up to speed on modern development"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: jekyllrb
+twitter_username: mmilleruva
 github_username:  mmilleruva
 
 # Build settings
