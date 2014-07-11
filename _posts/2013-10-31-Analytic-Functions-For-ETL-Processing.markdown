@@ -8,7 +8,7 @@ categories: Analytic Functions T-SQL
 Filtering out bad records from a database can be a subtly tricky problem. One situation I have seen several times, is attempting to remove duplicate records from a table based on some business rule. For example, lets use the hypothetical situation where there is a Property table and a Property Manager Table. There is a business rule that each property should only have a single property manager. Looking at the dummy data I created below we can see that is not the case.
 
 
-<table class="CSSTableGenerator">
+<table class="table-style">
     <tr>
       <td>Property ID</td>
       <td>Property Name</td>
