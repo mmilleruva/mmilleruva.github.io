@@ -12,3 +12,6 @@ and I always have trouble cleaning up branches that were deleted on master. This
 
 ## `git clean -fd`
 This command will **remove** any untracked files and directories. This is great for getting your directory back to a clean state.
+
+## `git mergetool`
+Runs a visual diffing tool to resolve merge conflicts.
