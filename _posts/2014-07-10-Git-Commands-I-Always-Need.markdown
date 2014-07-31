@@ -10,5 +10,5 @@ categories: Git
 At work we follow the github git workflow
 and I always have trouble cleaning up branches that were deleted on master. This command will do that for you.
 
-## `git clean -f`
-This command will **remove** any untracked files from your directory. This is great for getting your directory back to a clean state.
+## `git clean -fd`
+This command will **remove** any untracked files and directories. This is great for getting your directory back to a clean state.
