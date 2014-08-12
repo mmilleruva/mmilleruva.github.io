@@ -31,3 +31,8 @@ categories: Sublime Text 2
 
 * `cmd-/` - comments out the current line you are on.
 * pulling up the command palette, you can type snippet to show all of the snippets for the language you are in.
+
+## Multiple Windows
+
+* `cmd-opt-(1-5)` - Changes view to one of the 5 specified window configurations
+* `cntrl-shift-(1-4)` - Moves current file to one of the 4 specified windows
