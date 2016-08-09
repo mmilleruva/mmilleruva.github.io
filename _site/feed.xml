@@ -1,13 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MMillerUVA</title>
-    <description>Mike Miller&#39;s blog about development</description>
+    <title>Mike Miller&#39;s Development Ramblings</title>
+    <description>A place for me to help remember what I have been working on</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Jul 2014 15:20:54 -0400</pubDate>
-    <lastBuildDate>Thu, 10 Jul 2014 15:20:54 -0400</lastBuildDate>
-    <generator>Jekyll v2.1.0</generator>
+    <pubDate>Tue, 09 Aug 2016 16:42:27 -0400</pubDate>
+    <lastBuildDate>Tue, 09 Aug 2016 16:42:27 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Sublime Power User Tips</title>
+        <description>&lt;h2 id=&quot;goto-anything&quot;&gt;Goto Anything&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;CMD-P&lt;/code&gt; - Goto anything. Fuzzy search all the files in your project. Entering an @ character searches for symbols within the currently selected file (i.e. method names, classes, …) or use &lt;code&gt;cmd-r&lt;/code&gt;. So if I was in index.html and wanted to update the css style &lt;code&gt;.table-style&lt;/code&gt; in main.css I could use the following commands &lt;code&gt;CMD-P&lt;/code&gt;, then enter &lt;code&gt;main@table-sty&lt;/code&gt; to go to that css style. I purposefully didn’t complete everything to show that you only need to type what is necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;multiple-cursors&quot;&gt;Multiple Cursors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;CMD-D&lt;/code&gt; (multiple times) -highlights next occurences of a string and allows editing with multiple cursors&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;CNTRL-CMD-G&lt;/code&gt; - Creates a cursor for every instance of the string&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;OPT&lt;/code&gt; - Allows Column highlighting&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;CMD-SHIFT-L&lt;/code&gt; - create a cursor for every line highlighted&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;search-and-replace&quot;&gt;Search And Replace&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;cmd-i&lt;/code&gt; - incremental search. You can use enter to select the value of your search&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;command-palette&quot;&gt;Command Palette&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;cmd-shift-p&lt;/code&gt; - opens the command palette&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;snippets&quot;&gt;Snippets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;cmd-/&lt;/code&gt; - comments out the current line you are on.&lt;/li&gt;
+  &lt;li&gt;pulling up the command palette, you can type snippet to show all of the snippets for the language you are in.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;multiple-windows&quot;&gt;Multiple Windows&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;cmd-opt-(1-5)&lt;/code&gt; - Changes view to one of the 5 specified window configurations&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;cntrl-shift-(1-4)&lt;/code&gt; - Moves current file to one of the 4 specified windows&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 10 Jul 2014 19:08:03 -0400</pubDate>
+        <link>http://yourdomain.com/sublime/text/2/2014/07/10/Sublime-Power-User-Tips/</link>
+        <guid isPermaLink="true">http://yourdomain.com/sublime/text/2/2014/07/10/Sublime-Power-User-Tips/</guid>
+        
+        
+        <category>sublime</category>
+        
+        <category>text</category>
+        
+        <category>2</category>
+        
+      </item>
     
       <item>
         <title>Git Commands I Always Need</title>
@@ -15,8 +78,11 @@
 &lt;p&gt;At work we follow the github git workflow
 and I always have trouble cleaning up branches that were deleted on master. This command will do that for you.&lt;/p&gt;
 
-&lt;h2 id=&quot;git-clean--f&quot;&gt;&lt;code&gt;git clean -f&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;This command will &lt;strong&gt;remove&lt;/strong&gt; any untracked files from your directory. This is great for getting your directory back to a clean state.&lt;/p&gt;
+&lt;h2 id=&quot;git-clean--fd&quot;&gt;&lt;code&gt;git clean -fd&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;This command will &lt;strong&gt;remove&lt;/strong&gt; any untracked files and directories. This is great for getting your directory back to a clean state.&lt;/p&gt;
+
+&lt;h2 id=&quot;git-mergetool&quot;&gt;&lt;code&gt;git mergetool&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Runs a visual diffing tool to resolve merge conflicts.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Jul 2014 19:08:03 -0400</pubDate>
         <link>http://yourdomain.com/git/2014/07/10/Git-Commands-I-Always-Need/</link>
@@ -118,7 +184,7 @@ carryout the resource specification.&lt;/p&gt;
         <title>Using Analytic Functions To Filter Bad Data During ETL Processing</title>
         <description>&lt;p&gt;Filtering out bad records from a database can be a subtly tricky problem. One situation I have seen several times, is attempting to remove duplicate records from a table based on some business rule. For example, lets use the hypothetical situation where there is a Property table and a Property Manager Table. There is a business rule that each property should only have a single property manager. Looking at the dummy data I created below we can see that is not the case.&lt;/p&gt;
 
-&lt;table class=&quot;CSSTableGenerator&quot;&gt;
+&lt;table class=&quot;table-style&quot;&gt;
     &lt;tr&gt;
       &lt;td&gt;Property ID&lt;/td&gt;
       &lt;td&gt;Property Name&lt;/td&gt;

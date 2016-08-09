@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Git Commands I Always Need</title>
+    <title>Sublime Power User Tips</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A place for me to help remember what I have been working on">
-    <link rel="canonical" href="http://yourdomain.com/git/2014/07/10/Git-Commands-I-Always-Need/">
+    <link rel="canonical" href="http://yourdomain.com/sublime/text/2/2014/07/10/Sublime-Power-User-Tips/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -56,20 +56,58 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Git Commands I Always Need</h1>
+    <h1>Sublime Power User Tips</h1>
     <p class="meta">Jul 10, 2014</p>
   </header>
 
   <article class="post-content">
-  <h2 id="git-fetch-origin---prune"><code>git fetch origin --prune</code></h2>
-<p>At work we follow the github git workflow
-and I always have trouble cleaning up branches that were deleted on master. This command will do that for you.</p>
+  <h2 id="goto-anything">Goto Anything</h2>
 
-<h2 id="git-clean--fd"><code>git clean -fd</code></h2>
-<p>This command will <strong>remove</strong> any untracked files and directories. This is great for getting your directory back to a clean state.</p>
+<ul>
+  <li><code>CMD-P</code> - Goto anything. Fuzzy search all the files in your project. Entering an @ character searches for symbols within the currently selected file (i.e. method names, classes, …) or use <code>cmd-r</code>. So if I was in index.html and wanted to update the css style <code>.table-style</code> in main.css I could use the following commands <code>CMD-P</code>, then enter <code>main@table-sty</code> to go to that css style. I purposefully didn’t complete everything to show that you only need to type what is necessary.</li>
+</ul>
 
-<h2 id="git-mergetool"><code>git mergetool</code></h2>
-<p>Runs a visual diffing tool to resolve merge conflicts.</p>
+<h2 id="multiple-cursors">Multiple Cursors</h2>
+<ul>
+  <li>
+    <p><code>CMD-D</code> (multiple times) -highlights next occurences of a string and allows editing with multiple cursors</p>
+  </li>
+  <li>
+    <p><code>CNTRL-CMD-G</code> - Creates a cursor for every instance of the string</p>
+  </li>
+  <li>
+    <p><code>OPT</code> - Allows Column highlighting</p>
+  </li>
+  <li>
+    <p><code>CMD-SHIFT-L</code> - create a cursor for every line highlighted</p>
+  </li>
+</ul>
+
+<h2 id="search-and-replace">Search And Replace</h2>
+
+<ul>
+  <li><code>cmd-i</code> - incremental search. You can use enter to select the value of your search</li>
+</ul>
+
+<h2 id="command-palette">Command Palette</h2>
+
+<ul>
+  <li><code>cmd-shift-p</code> - opens the command palette</li>
+</ul>
+
+<h2 id="snippets">Snippets</h2>
+
+<ul>
+  <li><code>cmd-/</code> - comments out the current line you are on.</li>
+  <li>pulling up the command palette, you can type snippet to show all of the snippets for the language you are in.</li>
+</ul>
+
+<h2 id="multiple-windows">Multiple Windows</h2>
+
+<ul>
+  <li><code>cmd-opt-(1-5)</code> - Changes view to one of the 5 specified window configurations</li>
+  <li><code>cntrl-shift-(1-4)</code> - Moves current file to one of the 4 specified windows</li>
+</ul>
 
   </article>
 
